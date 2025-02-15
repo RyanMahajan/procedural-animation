@@ -6,6 +6,8 @@
 #include "constants.h"
 #include "prototypes.h"
 
+float XTRANSLATE = 0.0;
+
 int main(int argc, char** argv){
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_SINGLE | GLUT_RGB);

@@ -1,7 +1,7 @@
 
 CC = gcc
 LDLIBS = -lglut -lGL -lGLU -lm
-HEADERS = opengl.h globals.h constants.h prototypes.h
+HEADERS = opengl.h globals.h constants.h structs.h prototypes.h
 OBJS = init.o display.o mouse.o
 
 debug ?= n
